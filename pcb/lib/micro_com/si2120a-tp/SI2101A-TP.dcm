@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI2101A-TP
+D Small Signal MOSFETS
+K
+F https://www.mccsemi.com/pdf/Products/SI2101A(SOT-323).pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PCA9633DP1")(type "KiCad")(uri "${KIPRJMOD}/lib/nxp/pca9633dp1/KiCADv6/2024-03-08_13-42-00.kicad_sym")(options "")(descr ""))
+  (lib (name "M24256E-FMN6TP")(type "KiCad")(uri "${KIPRJMOD}/lib/stm/M24256E-FMN6TP/M24256E-FMN6TP.kicad_sym")(options "")(descr ""))
+  (lib (name "ot322525mjba4sl")(type "KiCad")(uri "${KIPRJMOD}/lib/custom/ot322525mjba4sl.kicad_sym")(options "")(descr ""))
+  (lib (name "sx3m32.768km20f30tnn")(type "KiCad")(uri "${KIPRJMOD}/lib/custom/sx3m32.768km20f30tnn.kicad_sym")(options "")(descr ""))
+)
