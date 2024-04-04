@@ -58,7 +58,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|178640000|115532934|4387be0b-2f62-448d-9fb0-2d9d06414a6b|8c9592b0-3407-4c4c-9abf-c234c0fbb52a|B.Cu",
+        "starved_thermal|178640000|115532934|4387be0b-2f62-448d-9fb0-2d9d06414a6b|8c9592b0-3407-4c4c-9abf-c234c0fbb52a|F.Cu",
+        "text_height|164268002|108480906|6aa107be-99a6-4653-a7db-fe958362381f|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -155,7 +159,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -525,7 +529,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "out",
+      "plot": "../gerbers",
       "pos_files": "./",
       "specctra_dsn": "",
       "step": "ambiens-sc1.step",
@@ -569,7 +573,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -664,7 +668,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../schematic",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
